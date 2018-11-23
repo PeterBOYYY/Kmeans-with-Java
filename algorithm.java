@@ -91,7 +91,7 @@ public class algorithm {
         }else{
             res=0;
             for (int i=0;i<x1.length;i++){
-                res+=Math.abs(x1[i]-x2[i]);
+                res+=Math.pow(x1[i]-x2[i],2);
             }
             res=Math.sqrt(res);
         }
